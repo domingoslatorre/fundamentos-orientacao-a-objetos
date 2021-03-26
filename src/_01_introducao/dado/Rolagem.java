@@ -17,16 +17,23 @@ public class Rolagem {
 
     public Rolagem(Dado... dados) {
         this.dados = Arrays.asList(dados);
+        this.rolarDados();
     }
 
     // public void adicionarDado(Dado dado) {
     //     this.dados.add(dado);
     // }
 
-    public int executar() {
+    private void rolarDados() {
+        for(Dado dado: dados) {
+            dado.rolar();
+        }
+    }
+
+    public int getSoma() {
         int soma = 0;
         for(Dado dado: dados) {
-            soma += dado.rolar();
+            soma += dado.getFace();
         }
         return soma;
     }

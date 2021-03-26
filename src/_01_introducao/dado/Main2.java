@@ -8,7 +8,6 @@ public class Main2 {
         int soma = 0;
         soma = rolarDado();
         soma += rolarDado();
-        soma += rolarDado(); 
         System.out.println(soma);
 
 
@@ -21,7 +20,7 @@ public class Main2 {
 
         Rolagem rolagem = new Rolagem(d1, d2);
 
-        System.out.println(rolagem.executar());
+        System.out.println(rolagem.getSoma());
 
     }
 

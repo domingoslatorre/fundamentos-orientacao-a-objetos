@@ -7,7 +7,8 @@ public class Main {
         System.out.println(rolarDado());
 
         Dado d6 = new Dado(6);
-        System.out.println(d6.rolar());
+        d6.rolar();
+        System.out.println(d6.getFace());
 
     }
 
