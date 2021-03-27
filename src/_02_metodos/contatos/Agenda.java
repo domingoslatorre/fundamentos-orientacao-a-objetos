@@ -14,6 +14,11 @@ public class Agenda {
         this.contatos.add(contato);
     }
 
+    // sobrecarga
+    public void adicionar(String nome, String ddd, String telefone) {
+        this.contatos.add(new Contato(nome, new Telefone(ddd, telefone)));
+    }
+
     public List<Contato> obterPorNome(String nome) {
         List<Contato> contatosEncontrados = new ArrayList<>();
         for(Contato contato: contatos) {
@@ -24,4 +29,9 @@ public class Agenda {
         return contatosEncontrados;
     }
 
+    // TODO: obterPorTelefone
+
+    // TODO: remover contato
+
+    // TODO: editar contato
 }
