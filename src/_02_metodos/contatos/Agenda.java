@@ -10,6 +10,10 @@ public class Agenda {
         this.contatos = new ArrayList<>();
     }
 
+    public int numeroContatos() {
+        return contatos.size();
+    }
+
     public void adicionar(Contato contato) {
         this.contatos.add(contato);
     }
