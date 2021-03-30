@@ -14,6 +14,7 @@
 - Representação computacional de um elemento ou processo do mundo real.
 - Ex: dado de 6 faces, maria, joao, conta 1, laboratorio 10, venda 5
 - Um objeto possui atributos e métodos
+- Instância de uma classe
 
 ### Atributo
 - Atributos definem as características do objeto
@@ -42,6 +43,15 @@
     - Laboratório
         - lab 1
         - lab 2
+
+### Membros de instância
+- Atributo associado a um objeto (em geral possue um valor diferente para cada objeto)
+
+### Membros de classe
+- Atributo associado a classe (compartilhado com todos objetos da classe)
+- Métodos static (métodos utilitários) - Math.pow, Math.sqrt
+    - Operam apenas em parâmetros de entrada, não precisam definir/usar atributos de instância
+- Palavra chave static
 
 ## UML
 - Unified Modeling Language (Linguagem de Modelagem Unificada)
