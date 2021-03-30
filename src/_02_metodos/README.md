@@ -42,12 +42,12 @@
 - Implementação pode ser alterada sem impacto aos clientes (desacoplamento)
 - Ocultação de informações
 
+## Verificação de parâmetros
+- Aula sobre restrições
+- Pré-condições e pós-condições
+- Invariantes
+
 ## UML
-- Unified Modeling Language (Linguagem de Modelagem Unificada)
-- Padronização para vizualização de projetos de sistemas orientados a objeto
-- Conjunto de diagrama
-    - Estáticos - estrutura estática do sistema: diagrama de classe, diagrama de pacotes, diagrama objetos, entre outros
-    - Dinâmicos (comportamentais) - representam a colaboração entre objetos e mudanças no estado interno: diagrama de sequência, diagrama de comunicação, entre outros
 
 ### Diagrama de Sequência
 - ...
